@@ -1,0 +1,47 @@
+ body{
+            background-color: rgb(210, 243, 128);
+            background-image: url('../HTML/image.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: top 400px right;
+            
+        }
+        html{
+            padding: 0%;
+            margin:0%;
+            box-sizing: border-box;
+        }
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 50px;
+            font-weight: 700;
+            font style: ;
+            text-align: center;
+            text-decoration: underline;
+            text-transform: uppercase;
+            text-shadow: 20px 0px 10px;
+            display: inline block;
+        }
+        #para{
+            color: blue;
+        }
+        img{
+            display: inline;
+            float:left;
+            margin-right: 20px;
+            border: 10px solid aqua;
+            border-radius: 50%;
+        }
+        main{
+            width: 500px;
+            height: 500px;
+            background-color: bisque;
+            margin: auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .box{
+            width: 240px;
+            height: ;
+        }
