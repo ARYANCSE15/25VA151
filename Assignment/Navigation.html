@@ -1,72 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Student Profile Card</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 350px;
-      background-color: #f4f4f4;
-    }
-    .profile-card {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      background: white;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-      width: 300px;
-    }
-    .profile-card img {
-      width: 120px;
-      height: 120px;
-      border-radius: 50%;
-      margin-bottom: 15px;
-    }
-    .profile-card h2 {
-      margin: 0;
-      color: #333;
-    }
-    .profile-card p {
-      color: #777;
-      margin: 5px 0;
-    }
-    .profile-card .buttons {
-      display: flex;
-      justify-content: space-between;
-      width: 100%;
-      margin-top: 15px;
-    }
-    .profile-card button {
-      flex: 1;
-      margin: 0 5px;
-      padding: 10px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      background-color: #007BFF;
-      color: white;
-    }
-    .profile-card button:hover {
-      background-color: #a1b300;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Example</title>
 </head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+}
+
+.box {
+    border: 2px solid black;
+    width: 95%;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.header {
+    background: #dcdcdc;
+    padding: 10px;
+    text-align: center;
+}
+
+.header span {
+    color: red;
+}
+
+.menu {
+    margin-top: 15px;
+}
+.blue {
+    background: #cbe1ff;
+    padding: 6px 12px;
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid #8cb7ff;
+    display: inline-block;
+}
+.green {
+    background: #c7f5c3;
+    padding: 6px 12px;
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid #88d87e;
+    display: inline-block;
+}
+</style>
 <body>
-  <div class="profile-card">
-    <img src="IMG_3742.JPG" alt="Student Photo">
-    <h2>Aryan Saini</h2>
-    <p>B.Tech CSE, 1st Year</p>
-    <p>Email: aryannsainiii@com</p>
-    <div class="buttons">
-      <button>Message</button>
-      <button>Follow</button>
+
+<div class="box">
+
+    <div class="header">
+        <h2>My <span>Website</span> Navigation</h2>
     </div>
-  </div>
+
+    <div class="menu">
+        <a href="#" class="blue">Home</a>
+        <a href="#" class="blue">About</a>
+        <a href="#" class="blue">Services</a>
+        <a href="#" class="blue">Contact</a>
+
+        <br><br>
+
+        <a href="#" class="green">Dashboard</a>
+        <a href="#" class="green">Profile</a>
+        <a href="#" class="green">Messages</a>
+        <a href="#" class="green">Logout</a>
+    </div>
+
+</div>
+
 </body>
 </html>
