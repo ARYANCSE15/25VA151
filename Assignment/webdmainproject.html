@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Amazon Clone</title>
+    <style>* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* MAIN NAVBAR */
+.amazon-navbar {
+    background-color: #131921;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 15px;
+}
+
+/* Logo */
+.nav-logo {
+    font-size: 26px;
+    font-weight: bold;
+    color: orange;
+}
+
+.nav-logo span {
+    color: white;
+    font-size: 14px;
+}
+
+/* Address */
+.nav-address {
+    line-height: 1.2;
+}
+
+/* Search */
+.nav-search {
+    display: flex;
+    flex: 1;
+}
+
+.nav-search select {
+    padding: 8px;
+    border: none;
+}
+
+.nav-search input {
+    width: 100%;
+    padding: 8px;
+    border: none;
+}
+
+.nav-search button {
+    background-color: orange;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+/* Text styles */
+.small-text {
+    font-size: 12px;
+}
+
+.bold-text {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Cart */
+.nav-cart {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* SUB NAVBAR */
+.sub-navbar {
+    background-color: #232f3e;
+    padding: 10px;
+}
+
+.sub-navbar a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+/* BANNER */
+.banner {
+    background-color: #f3f3f3;
+    text-align: center;
+    padding: 40px;
+}
+
+/* PRODUCTS */
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    width: 220px;
+    padding: 15px;
+    text-align: center;
+    background-color: white;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card button {
+    margin-top: 10px;
+    padding: 8px;
+    background-color: #ff9900;
+    border: none;
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+    background-color: #131921;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+</style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="amazon-navbar">
+
+    <div class="nav-logo">
+        amazon<span>.in</span>
+    </div>
+
+    <div class="nav-address">
+        <p class="small-text">Deliver to</p>
+        <p class="bold-text">India</p>
+    </div>
+
+    <div class="nav-search">
+        <select>
+            <option>All</option>
+            <option>Mobiles</option>
+            <option>Electronics</option>
+            <option>Fashion</option>
+        </select>
+        <input type="text" placeholder="Search Amazon.in">
+        <button>🔍</button>
+    </div>
+
+    <div class="nav-signin">
+        <p class="small-text">Hello, Sign in</p>
+        <p class="bold-text">Account & Lists</p>
+    </div>
+
+    <div class="nav-orders">
+        <p class="small-text">Returns</p>
+        <p class="bold-text">& Orders</p>
+    </div>
+
+    <div class="nav-cart">
+        🛒 Cart
+    </div>
+
+</header>
+
+<!-- SECOND NAVBAR -->
+<nav class="sub-navbar">
+    <a href="#">All</a>
+    <a href="#">Today's Deals</a>
+    <a href="#">Customer Service</a>
+    <a href="#">Registry</a>
+    <a href="#">Gift Cards</a>
+    <a href="#">Sell</a>
+</nav>
+
+<!-- BANNER -->
+<section class="banner">
+    <h2>Great Indian Festival</h2>
+    <p>Big Discounts on Electronics & Fashion</p>
+</section>
+
+<!-- PRODUCTS -->
+<section class="products">
+
+    <div class="card">
+        <img src="https://via.placeholder.com/200" alt="">
+        <h3>Smartphone</h3>
+        <p>₹12,999</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="https://via.placeholder.com/200" alt="">
+        <h3>Laptop</h3>
+        <p>₹49,999</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="https://via.placeholder.com/200" alt="">
+        <h3>Headphones</h3>
+        <p>₹1,999</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="https://via.placeholder.com/200" alt="">
+        <h3>Smart Watch</h3>
+        <p>₹2,999</p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="card">
+        <img src="https://via.placeholder.com/200" alt="">
+        <h3>Smartphone</h3>
+        <p>₹12,999</p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="card">
+        <img src="https://via.placeholder.com/200" alt="">
+        <h3>Smartphone</h3>
+        <p>₹12,999</p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="card">
+        <img src="https://via.placeholder.com/200" alt="">
+        <h3>Smartphone</h3>
+        <p>₹12,999</p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="card">
+        <img src="https://via.placeholder.com/200" alt="">
+        <h3>Smartphone</h3>
+        <p>₹12,999</p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="card">
+        <img src="https://via.placeholder.com/200" alt="">
+        <h3>Smartphone</h3>
+        <p>₹12,999</p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="card">
+        <img src="https://via.placeholder.com/200" alt="">
+        <h3>Smartphone</h3>
+        <p>₹12,999</p>
+        <button>Add to Cart</button>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 Amazon Clone | Made by BTech Student</p>
+</footer>
+
+</body>
+</html>
